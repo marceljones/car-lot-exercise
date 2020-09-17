@@ -4,6 +4,8 @@ Create a landing page that shows available cars for sale and allow users to filt
 
 Create a dropdown whose options are all the available colors. When a user chooses a color from the dropdown, the list of cars with that color should render on the screen.
 
+![](./example.gif)
+
 ## Setup
 
 1. Clone this repo
