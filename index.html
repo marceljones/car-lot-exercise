@@ -3,13 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Available Cars</title>
+    <title>Available Carls</title>
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <h1>Cars for Sale</h1>
     <h3>Select a color to see what's available</h3>
-
-    <div id="main"></div>
+    
+      <div class="filters">
+        <div class="filter filters__colors"></div>
+        <div class="filter filters__cars"></div>
+      </div>
+   
+    <main class="container">
+      <div class="colorsContainer"></div>
+      <div class="carsContainer"></div>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
-  <script src="scripts/main.js" type="module"></script>
-</html>
+  </html>
+    
+      
+        

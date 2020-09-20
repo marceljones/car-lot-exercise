@@ -1,0 +1,19 @@
+.carsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: .05em;
+    padding: 1.5em;
+    flex-wrap: wrap;
+} 
+
+
+
+.card-cars {
+    border: solid 3px orangered;
+    padding: 1rem;
+    min-width: 200px;
+    max-width: 200px;
+    
+    
+} 
+
