@@ -1,6 +1,6 @@
 .carsContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: .05em;
     padding: 1.5em;
     flex-wrap: wrap;

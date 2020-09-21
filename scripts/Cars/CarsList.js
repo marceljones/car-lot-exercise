@@ -8,11 +8,12 @@ const domElement = document.querySelector(".carsContainer");
 eventHub.addEventListener("colorsSelected", event => {
     if (event.detail.colorThatWasChosen !== "0" ) {
 
-       const storedColorsArray = useColors()
-       const colorObj = storedColorsArray.find(taco => taco.id === parseInt(event.detail.colorThatWasChosen))
-       console.log("This should be a color string", colorObj.color)
+    //    const storedColorsArray = useColors()
+    //    const colorObj = storedColorsArray.find(taco => taco.id === parseInt(event.detail.colorThatWasChosen))
+       
        const matchingCars = useCars().filter(currentCar => {
-           currentCar.colorString = colorObj.color
+
+        //    currentCar.colorString = colorObj.color
             return currentCar.colorId === parseInt(event.detail.colorThatWasChosen)
         })
         addCarsToDOM(matchingCars) 

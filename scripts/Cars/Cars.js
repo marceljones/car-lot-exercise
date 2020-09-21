@@ -5,8 +5,9 @@ export const CarsHTML = (carsObj) => {
             <h3> ${carsObj.name}</h3>
             <p>MPG: ${carsObj.milesPerGallon}</p>
             <p>Year: ${carsObj.year}</p>
-            <p>Color: ${carsObj.colorString}</p>
         </div>
             `
 }
             
+//add <p> with the carsObj.colorString using string interpolation to include 
+//the color of the car on the DOM, along with the example shown to me by tutor.
